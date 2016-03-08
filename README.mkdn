@@ -1,5 +1,5 @@
-CyanogenMod (Zenfone 5)
-=======================
+CyanogenMod 12.1 (Zenfone 5)
+============================
 
 Getting Started
 ---------------
