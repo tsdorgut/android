@@ -497,7 +497,7 @@
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
+  <!-- <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" /> -->
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -588,7 +588,8 @@
   <!-- Updated CyanogenMod sources -->
   <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-12.1" />
   <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-12.1" />
-  
+  <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-12.1" />
+
   <!-- ASUS specific code for kernel -->
   <project path="device/asus/clovertrail" name="zf5/android_device_asus_clovertrail" remote="github" revision="refs/heads/master" />
   <project path="device/intel/common" name="zf5/android_device_intel_common" remote="github" revision="refs/heads/master" />
