@@ -597,8 +597,8 @@
   <project path="external/alsa-utils" name="zf5/android_external_alsa-utils" remote="github" revision="refs/heads/master" />
 
   <!-- ASUS Zenfone 5 specific code -->
-  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" revision="refs/heads/tests-2" />
-  <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="github" revision="refs/heads/tests-3" />
+  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" revision="refs/heads/master" />
+  <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="github" revision="refs/heads/master" />
   <project path="kernel/asus/a500cg" name="zf5/android_kernel_asus_a500cg" remote="github" revision="refs/heads/master">
     <copyfile src="KernelMakefile" dest="KernelMakefile" />
   </project>
