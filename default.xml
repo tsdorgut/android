@@ -361,7 +361,7 @@
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
+  <!-- <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" /> -->
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
@@ -587,6 +587,7 @@
 
   <!-- Updated CyanogenMod sources -->
   <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-12.1" />
+  <project path="frameworks/opt/telephony" name="zf5/android_frameworks_opt_telephony" remote="github" revision="refs/heads/cm-12.1" />
   <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-12.1" />
   <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-12.1" />
 
