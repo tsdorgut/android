@@ -17,9 +17,9 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+  <!-- <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  </project> -->
 
   <project path="android" name="zf5/android" remote="github" revision="refs/heads/cm-12.1" />
 
@@ -590,6 +590,9 @@
   <project path="frameworks/opt/telephony" name="zf5/android_frameworks_opt_telephony" remote="github" revision="refs/heads/cm-12.1" />
   <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-12.1" />
   <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-12.1" />
+  <project path="build" name="zf5/android_build" groups="pdk,tradefed" remote="github" revision="refs/heads/cm-12.1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <!-- Prebuilt Android sources -->
   <project path="frameworks/webview" name="zf5/android_frameworks_webview" remote="github" revision="refs/heads/master" />
