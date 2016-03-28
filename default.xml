@@ -209,7 +209,7 @@
   <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-13.0-caf" /> -->
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
+  <!-- <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" /> -->
   <!-- <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
@@ -548,6 +548,7 @@
   <project path="frameworks/opt/telephony" name="zf5/android_frameworks_opt_telephony" remote="github" revision="refs/heads/cm-13.0" />
   <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-13.0" />
   <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="hardware/ril" name="zf5/android_hardware_ril" groups="pdk" remote="github" revision="refs/heads/cm-13.0" />
 
   <!-- ASUS Zenfone 5 specific code -->
   <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" revision="refs/heads/master" />
