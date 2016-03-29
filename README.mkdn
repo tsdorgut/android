@@ -28,3 +28,9 @@ so all you need to do is build it.
     make -j16
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) or [Android Docs](https://source.android.com/source/building.html) for more building instructions.
+
+Submitting Issues
+-----------------
+
+To submit an issue, please go to [Create issue](https://bitbucket.org/zf5/android/issues/new) and explain your issue.
+Don't forget to include a logcat.
