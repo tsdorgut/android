@@ -154,7 +154,7 @@
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <!-- <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" /> -->
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
@@ -167,13 +167,13 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
-  <!-- <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
+  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
   <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" />
   <project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" groups="intel" />
   <project path="hardware/intel/common/omx-components" name="CyanogenMod/android_hardware_intel_common_omx-components" groups="intel" />
   <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" /> -->
+  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
@@ -224,7 +224,7 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
-  <!-- <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" /> -->
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
   <!-- <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" /> -->
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
@@ -403,7 +403,7 @@
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
-  <!-- <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" /> -->
+  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
   <project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
@@ -488,14 +488,14 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <!-- <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
+  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp"/>
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
-  <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
+  <!-- <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" remote="aosp" />
@@ -545,17 +545,18 @@
 
   <!-- Updated CyanogenMod sources -->
   <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-13.0" />
-  <project path="frameworks/opt/telephony" name="zf5/android_frameworks_opt_telephony" remote="github" revision="refs/heads/cm-13.0" />
-  <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-13.0" />
+  <!-- <project path="frameworks/opt/telephony" name="zf5/android_frameworks_opt_telephony" remote="github" revision="refs/heads/cm-13.0" /> -->
+  <!-- <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-13.0" /> -->
   <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-13.0" />
-  <project path="hardware/ril" name="zf5/android_hardware_ril" groups="pdk" remote="github" revision="refs/heads/cm-13.0" />
-  <project path="external/libdrm" name="zf5/platform_external_libdrm" groups="pdk" remote="private" revision="refs/heads/master" />
+  <!-- <project path="hardware/ril" name="zf5/android_hardware_ril" groups="pdk" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="external/libdrm" name="zf5/platform_external_libdrm" groups="pdk" remote="private" revision="refs/heads/master" /> -->
 
   <!-- ASUS Zenfone 5 specific code -->
-  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="private" revision="refs/heads/master" />
-  <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="private" revision="refs/heads/master" />
+  <project path="device/asus/ctp-common" name="zf5/android_device_asus_ctp-common" remote="private" revision="refs/heads/master" />
+  <project path="device/asus/T00F" name="zf5/android_device_asus_t00f" remote="private" revision="refs/heads/master" />
+  <!-- <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="private" revision="refs/heads/master" /> -->
 
   <!-- Intel specific code -->
-  <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="private" revision="refs/heads/master" />
-  <project path="vendor/intel/hardware/camera_extension" name="zf5/android_vendor_intel_hardware_camera_extension" remote="github" revision="refs/heads/redhookbay/a50" />
+  <!-- <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="private" revision="refs/heads/master" />
+  <project path="vendor/intel/hardware/camera_extension" name="zf5/android_vendor_intel_hardware_camera_extension" remote="github" revision="refs/heads/redhookbay/a50" /> -->
 </manifest>
