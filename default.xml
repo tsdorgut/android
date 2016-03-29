@@ -549,7 +549,7 @@
   <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-13.0" />
   <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-13.0" />
   <project path="hardware/ril" name="zf5/android_hardware_ril" groups="pdk" remote="github" revision="refs/heads/cm-13.0" />
-  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="private" revision="refs/heads/master" />
+  <project path="external/libdrm" name="zf5/platform_external_libdrm" groups="pdk" remote="private" revision="refs/heads/master" />
 
   <!-- ASUS Zenfone 5 specific code -->
   <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="private" revision="refs/heads/master" />
