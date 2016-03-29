@@ -10,7 +10,7 @@
            review="review.cyanogenmod.org" />
 
   <remote  name="private"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@bitbucket.org" />
 
   <default revision="refs/heads/cm-13.0"
            remote="github"
@@ -549,12 +549,13 @@
   <project path="packages/apps/Camera2" name="zf5/android_packages_apps_Camera2" remote="github" revision="refs/heads/cm-13.0" />
   <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-13.0" />
   <project path="hardware/ril" name="zf5/android_hardware_ril" groups="pdk" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="private" revision="refs/heads/master" />
 
   <!-- ASUS Zenfone 5 specific code -->
-  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="github" revision="refs/heads/master" />
-  <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="github" revision="refs/heads/master" />
+  <project path="device/asus/a500cg" name="zf5/android_device_asus_a500cg" remote="private" revision="refs/heads/master" />
+  <project path="vendor/asus/a500cg" name="zf5/android_vendor_asus_a500cg" remote="private" revision="refs/heads/master" />
 
   <!-- Intel specific code -->
-  <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="github" revision="refs/heads/master" />
+  <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="private" revision="refs/heads/master" />
   <project path="vendor/intel/hardware/camera_extension" name="zf5/android_vendor_intel_hardware_camera_extension" remote="github" revision="refs/heads/redhookbay/a50" />
 </manifest>
