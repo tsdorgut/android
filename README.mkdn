@@ -15,15 +15,15 @@ Then to sync up:
 
     repo sync -c -j16
 
-Building
---------
+Building (private, for now)
+---------------------------
 
 This manifest will already come with the Zenfone 5 device files,
 so all you need to do is build it.
 
     . build/envsetup.sh
 
-    lunch cm_a500cg-user
+    lunch cm_T00F-user
 
     make -j16
 
