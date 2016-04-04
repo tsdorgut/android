@@ -558,5 +558,5 @@
   <project path="vendor/asus/T00F" name="zf5/android_vendor_asus_t00f" remote="private" revision="refs/heads/marshmallow" />
 
   <!-- Intel specific code -->
-  <!-- <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="private" revision="refs/heads/cm-13.0" /> -->
+  <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="private" revision="refs/heads/marshmallow" />
 </manifest>
