@@ -20,7 +20,7 @@ so all you need to do is build it.
 
     . build/envsetup.sh
 
-    lunch aosp_x86-user
+    lunch mini_T00F-user
 
     make -f KernelMakefile -j16 TARGET_DEVICE=hd build_kernel
 
