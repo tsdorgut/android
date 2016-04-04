@@ -21,9 +21,9 @@
   <project path="android" name="zf5/android" remote="github" revision="refs/heads/cm-12.1-kernel" />
 
   <!-- <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" /> -->
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <!-- <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
@@ -113,9 +113,9 @@
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" />
   <project path="external/chromium_org/v8" name="CyanogenMod/android_external_chromium_org_v8" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
-  <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" />
+  <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" /> -->
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
+  <!-- <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
@@ -175,9 +175,9 @@
   <project path="external/jarjar" name="CyanogenMod/android_external_jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" remote="aosp" />
+  <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" remote="aosp" /> -->
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
+  <!-- <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
@@ -425,9 +425,9 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" /> -->
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
-  <!-- <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
+  <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
@@ -517,9 +517,9 @@
   <!-- <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" clone-depth="1" remote="aosp" /> -->
   <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs,notdefault" clone-depth="1" remote="aosp" />
+  <!-- <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs,notdefault" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" clone-depth="1" remote="aosp" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" clone-depth="1" remote="aosp" />
@@ -557,9 +557,9 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
-  <project path="sdk" name="platform/sdk" remote="aosp" /> -->
+  <project path="sdk" name="platform/sdk" remote="aosp" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
-  <!-- <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
