@@ -1,15 +1,12 @@
-CyanogenMod 12.1 (Zenfone 5)
-============================
+Kernel (Zenfone 5)
+==================
 
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+To initialize your local repository using the kernel trees, use a command like this:
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/zf5/android.git -b cm-12.1
+    repo init -u git://github.com/zf5/android.git -b cm-12.1-kernel
 
 Then to sync up:
 
@@ -18,13 +15,17 @@ Then to sync up:
 Building
 --------
 
-This manifest will already come with the Zenfone 5 device files,
+This manifest will already come with the Zenfone 5 kernel files,
 so all you need to do is build it.
 
     . build/envsetup.sh
 
-    lunch cm_a500cg-user
+    lunch aosp_x86-user
 
-    make -j16
+    make -f KernelMakefile -j16 TARGET_DEVICE=hd build_kernel
+
+    make -f KernelMakefile -j16 TARGET_DEVICE=hd modules_install
+
+    make -f KernelMakefile -j16 TARGET_DEVICE=hd copy_modules_to_root
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) or [Android Docs](https://source.android.com/source/building.html) for more building instructions.
