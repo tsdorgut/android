@@ -12,6 +12,10 @@ Then to sync up:
 
     repo sync -c -j16
 
+Remove conflicting directories:
+
+    rm -Rf bionic/tests
+
 Building
 --------
 
@@ -21,6 +25,8 @@ so all you need to do is build it.
     . build/envsetup.sh
 
     lunch mini_T00F-user
+
+    make -j16 minigzip openssl
 
     make -f KernelMakefile -j16 TARGET_DEVICE=hd build_kernel
 
