@@ -12,6 +12,10 @@ Then to sync up:
 
     repo sync -c -j16
 
+Remove conflicting directories:
+
+    rm -Rf bionic/tests
+
 Building
 --------
 
