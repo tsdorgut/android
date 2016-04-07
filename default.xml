@@ -548,7 +548,6 @@
   <!-- Updated CyanogenMod sources -->
   <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-13.0" />
   <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-13.0" />
-<!-- FROM THIS LINE THE SOURCES ARE NOW PRIVATE, I'M SORRY! -->
   <project path="system/vold" name="zf5/android_system_vold" groups="pdk" remote="private" revision="refs/heads/cm-13.0" />
 
   <!-- ASUS Zenfone 5 specific code -->
