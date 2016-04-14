@@ -1,5 +1,5 @@
-CyanogenMod 13.0 (Zenfone 5)
-============================
+CyanogenMod 13.0 (Zenfone 5) [STABLE]
+=====================================
 
 Getting Started
 ---------------
@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/zf5/android.git -b cm-13.0
+    repo init -u git://github.com/zf5/android.git -b stable/cm-13.0-ZNH2K
 
 Then to sync up:
 
