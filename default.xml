@@ -12,7 +12,7 @@
   <remote  name="private"
            fetch="ssh://git@bitbucket.org" />
 
-  <default revision="refs/heads/cm-13.0"
+  <default revision="refs/heads/stable/cm-13.0-ZNH2K"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -22,7 +22,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="zf5/android" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="android" name="zf5/android" remote="github" revision="refs/heads/stable/cm-13.0-ZNH2K" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -546,8 +546,8 @@
 <!-- END AOSP -->
 
   <!-- Updated CyanogenMod sources -->
-  <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/cm-13.0" />
-  <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="frameworks/base" name="zf5/android_frameworks_base" remote="github" revision="refs/heads/stable/cm-13.0-ZNH2K" />
+  <project path="packages/services/Telephony" name="zf5/android_packages_services_Telephony" remote="github" revision="refs/heads/stable/cm-13.0-ZNH2K" />
   <project path="system/vold" name="zf5/android_system_vold" groups="pdk" remote="private" revision="refs/heads/cm-13.0" />
 
   <!-- ASUS Zenfone 5 specific code -->
