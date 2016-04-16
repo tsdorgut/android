@@ -19,8 +19,6 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" clone-depth="1" remote="aosp" />
 
   <!-- ASUS specific code for kernel -->
-  <project path="device/asus/clovertrail" name="zf5/android_device_asus_clovertrail" remote="github" revision="refs/heads/master" />
-  <project path="device/intel/common" name="zf5/android_device_intel_common" remote="github" revision="refs/heads/master" />
   <project path="external/alsa-lib" name="zf5/android_external_alsa-lib" remote="github" revision="refs/heads/master" />
   <project path="external/alsa-utils" name="zf5/android_external_alsa-utils" remote="github" revision="refs/heads/master" />
 
