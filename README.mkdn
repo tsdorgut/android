@@ -6,7 +6,7 @@ Getting Started
 
 To initialize your local repository using the kernel trees, use a command like this:
 
-    repo init -u git://github.com/zf5/android.git -b cm-12.1-kernel
+    repo init -u git://github.com/zf5/android.git -b kernel
 
 Then to sync up:
 
