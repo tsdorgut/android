@@ -9,9 +9,6 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org" />
-
   <default revision="refs/heads/stable/cm-13.0-ZNH2K"
            remote="github"
            sync-c="true"
@@ -546,11 +543,11 @@
 <!-- END AOSP -->
 
   <!-- ASUS Zenfone 5 specific code -->
-  <project path="device/asus/ctp-common" name="zf5/android_device_asus_ctp-common" remote="bitbucket" revision="refs/heads/marshmallow" />
-  <project path="device/asus/T00F" name="zf5/android_device_asus_t00f" remote="bitbucket" revision="refs/heads/marshmallow" />
-  <project path="vendor/asus/ctp-common" name="zf5/android_vendor_asus_ctp-common" remote="bitbucket" revision="refs/heads/marshmallow" />
-  <project path="vendor/asus/T00F" name="zf5/android_vendor_asus_t00f" remote="bitbucket" revision="refs/heads/marshmallow" />
+  <project path="device/asus/ctp-common" name="zf5/android_device_asus_ctp-common" remote="github" revision="refs/heads/marshmallow" />
+  <project path="device/asus/T00F" name="zf5/android_device_asus_T00F" remote="github" revision="refs/heads/marshmallow" />
+  <project path="vendor/asus/ctp-common" name="zf5/android_vendor_asus_ctp-common" remote="github" revision="refs/heads/marshmallow" />
+  <project path="vendor/asus/T00F" name="zf5/android_vendor_asus_T00F" remote="github" revision="refs/heads/marshmallow" />
 
   <!-- Intel specific code -->
-  <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="bitbucket" revision="refs/heads/marshmallow" />
+  <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="github" revision="refs/heads/marshmallow" />
 </manifest>

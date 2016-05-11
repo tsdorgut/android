@@ -1,4 +1,4 @@
-CyanogenMod 13.0 (Zenfone 5) [STABLE]
+CyanogenMod 13.1 (Zenfone 5) [STABLE]
 =====================================
 
 Getting Started
@@ -18,7 +18,7 @@ Then to sync up:
 Patching
 --------
 
-Use the files from the `Patch` repository on BitBucket and patch the respective folders.
+Use the files from the `Patch` repository on GitHub and patch the respective folders.
 
 Search on how to apply a patch file.
 
@@ -39,5 +39,5 @@ Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) or [Android Docs
 Submitting Issues
 -----------------
 
-To submit an issue, please go to [Create issue](https://bitbucket.org/zf5/android/issues/new) and explain your issue.
+To submit an issue, please go to [Create issue](https://github.com/zf5/android/issues/new) and explain your issue.
 Don't forget to include a logcat.
